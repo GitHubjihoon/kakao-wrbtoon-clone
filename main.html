@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오 웹툰 연습</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="home-header">
+                <nav class="top-header">
+                    <ul class="top-header-links">
+                        <li class="top-header-item"><a href="#">종모양</a></li>
+                        <li class="top-header-item"><a href="#">돋보기모양</a></li>
+                        <li class="top-header-item"><a href="#">메뉴모양</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="bottom-header">
+                    <ul class="bottom-header-links">
+                        <li class="bottom-header-item"><a href="#">선물함</a></li>
+                        <li class="bottom-header-item"><a href="#">보관함</a></li>
+                        <li class="bottom-header-item"><a href="#">KAKO WEBTOON</a></li>
+                        <li class="bottom-header-item"><a href="#">웹툰원작</a></li>
+                        <li class="bottom-header-item"><a href="#">소설원작</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="home-under">
+                <ul class="home-under-links">
+                    <li class="home-under-item"><a href="#">추천</a></li>
+                    <li class="home-under-item"><a href="#">스페셜</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="chamber">
+            <section class="part" id="part-1">
+                <div class="part_desc">
+                    <div class="part_desc-item-1"><p>이벤트</p></div>
+                    <div class="part_desc-item-2"><p>남편이<br>미모를 숨김</p></div>
+                    <div class="part_desc-item-3"><p>이렇게 잘생긴<br> 남편과 이혼이라니.<br> 안 돼, 절대 안 돼!</p></div>
+                    <div class="part_desc-item-4">
+                        <p>8월 20일</p>
+                        <p>시즌 재개</p>
+                    </div>
+                </div>
+                <div class="part_animate" id="part_animate-1">
+                    <div class="blackBox-left"></div>
+                    <div class="part-object">
+                        <canvas id="part-object-canvas-1"></canvas>
+                    </div>
+                    <div class="blackBox-right"></div>
+                    <div class="part-image">
+                        <canvas id="part-image-canvas-1"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <section class="part" id="part-2">
+                <div class="part_desc">
+                    <div class="part_desc-item part_desc-item-1"><p>이벤트</p></div>
+                    <div class="part_desc-item part_desc-item-2"><p>이 작품<br>재밌었다면?<br>같은 취향 작품<br>감상 퀘스트</p></div>
+                    <div class="part_desc-item part_desc-item-3"><p>나혼렙 독자가<br>같이 구매한<br>작품 컬렉션</p></div>
+                    <div class="part_desc-item part_desc-item-4"><p><strong>참여방법</strong><br>작품 감상하면 즉시 지급</p></div>
+                </div>
+                <div class="part_animate" id="part_animate-2">
+                    <div class="blackBox-left"></div>
+                    <div class="part-object">
+                        <canvas id="part-object-canvas-2"></canvas>
+                    </div>
+                    <div class="blackBox-right"></div>
+                    <div class="part-image">
+                        <canvas id="part-image-canvas-2"></canvas>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

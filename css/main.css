@@ -1,0 +1,135 @@
+@charset 'utf-8';
+html {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+body {
+    color: #fff;
+    background: #000;
+}
+body a {
+    text-decoration: none;
+}
+.home-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #000;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    height: 44px;
+}
+.top-header-links {
+    display: flex;
+    width: 100%;
+}
+.top-header-links a{
+    color: #fff;
+}
+.top-header-links .top-header-item:not(li:first-child) {
+    margin-left: 1em;
+}
+.top-header-links li:first-child {
+    margin-right: auto;
+}
+
+.bottom-header{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.bottom-header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.bottom-header-links .bottom-header-item {
+    padding: 0 3em;
+}
+.bottom-header-links a{
+    color: #fff;
+}
+.home-under {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #000;
+}
+.home-under-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+    height: 46px;
+    margin: 0 auto;
+}
+.home-under-links .home-under-item {
+    margin: 0 1em;
+}
+.home-under-links a {
+    color: #fff;
+}
+
+.chamber {
+    margin-top: 126px;
+}
+.part {
+    width: 630px;
+    height: 418;
+    margin: 0 auto;
+    border: red 1px solid;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.part_desc {
+    display: flex;
+    flex-direction: column;
+    margin: 18px auto;
+    width: 594px;
+    height: 418px;
+}
+.part .part_desc-item {
+    width: 100%;
+}
+.part .part_desc-item-1 {
+    height: 16px;
+    font-size: 10px;
+}
+.part .part_desc-item-2 {
+    margin-top: 22px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.part .part_desc-item-3 {
+    margin-top: 12px;
+}
+.part .part_desc-item-4 {
+    margin-top: auto;
+    height: 31px;
+}
+.part .part_desc-item-4 p{
+    font-size: 13px;
+    font-weight: 700;
+    padding-bottom: .4em;
+}
+.part .part_desc-item-4 p:not(:first-child) {
+    font-size: 12px;
+    opacity: .7;
+}
+
+.part_animate {
+    position: absolute;
+}
